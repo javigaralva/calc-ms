@@ -12,6 +12,18 @@
     ],
     "statements": [
       {
+        "children": [
+          {
+            "command": "Throw",
+            "errorName": "BadRequest",
+            "expressionData": "\"Invalid params\"",
+            "expressionInnerError": "null"
+          }
+        ],
+        "command": "If",
+        "expression": "IsNull( num1 ) || IsNull( num2 )"
+      },
+      {
         "command": "Return",
         "expression": "num1 + num2"
       }
