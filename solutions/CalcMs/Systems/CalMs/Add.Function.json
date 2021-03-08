@@ -1,0 +1,38 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "num1",
+        "type": "decimal"
+      },
+      {
+        "name": "num2",
+        "type": "decimal"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "num1 + num2"
+      }
+    ],
+    "typeReturn": "decimal",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "num1",
+        "in": "Query",
+        "name": "num1"
+      },
+      {
+        "bind": "num2",
+        "in": "Query",
+        "name": "num2"
+      }
+    ],
+    "path": "/add"
+  }
+}

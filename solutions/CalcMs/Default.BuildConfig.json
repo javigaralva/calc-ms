@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "systemName": "CalMs",
+      "action": "build",
+      "buildPort": 8080
+    }
+  ]
+}

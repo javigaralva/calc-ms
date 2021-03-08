@@ -1,0 +1,11 @@
+{
+  "systems": [
+    {
+      "name": "CalMs",
+      "type": "Microservice",
+      "x": 411,
+      "y": 163
+    }
+  ],
+  "references": []
+}
